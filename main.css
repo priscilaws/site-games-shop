@@ -5,14 +5,17 @@
 }
 
 header,
-section h2 {
+section h2,
+section h3 {
         font-family: "Bungee", sans-serif;
+        font-weight: normal;
 }
 
-body {
+body,
+input,
+textarea {
     font-family: "Roboto", sans-serif;
 }
-
 
 header {
     padding: 16px,0;
@@ -20,16 +23,12 @@ header {
     color: #ecf0f1;
 }
 
-header h1,
-section h2 {
-    font-weight: normal;
-}
-
 header nav  li {
     display: inline;
     margin-left: 16px;
     font-size: 18px;
 }
+
 header nav li a {
     color: #ecf0f1;
     text-decoration: none;
@@ -83,6 +82,15 @@ section p {
     height: 24px;
 }
 
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
 #contact .container {
     display: block;
 }
@@ -90,13 +98,6 @@ section p {
 .contact-methods {
     display: flex;
     justify-content: space-between;
-}
-
-form input,
-form textarea,
-form button {
-    display: block;
-    width: 320px;
 }
 
 form input,
@@ -126,4 +127,11 @@ form button:hover {
 
 input:focus, textarea:focus {
     outline-color: #182C61;
+}
+
+footer {
+    background-color: #182C61;
+    color: #ecf0f1;
+    padding: 16px;
+    
 }
